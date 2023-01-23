@@ -1,0 +1,10 @@
+const nombre= "Francisco"
+const apellido="Maigua"
+const estudiante= nombre.concat(" ",apellido)
+const estudianteMayus=estudiante.toLocaleUpperCase()
+const estudianteMinus=estudiante.toLocaleLowerCase()
+const cantidadCaracteres=estudiante.length
+const primerLetraNombre=nombre.charAt(0)
+const ultimaLetraApellido=apellido.charAt(apellido.length-1)
+const eliminarEspacios=estudiante.replace(" ","")
+const existePalabra=estudiante.includes(nombre)
